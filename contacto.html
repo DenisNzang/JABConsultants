@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <title>Contacto - JAB Consultants</title>
+  <style>
+    body {
+      background-image: url('/assets/images/welcome-hero/3.jpg');
+      background-size: cover;
+    }
+  </style>
+  <script src="assets/js/jquery.js"></script>
+  <script src="assets/js/bootstrap.min.js"></script>
+
+  <script charset="utf-8" type="text/javascript" src="//js-eu1.hsforms.net/forms/embed/v2.js"></script>
+  <script>
+    hbspt.forms.create({
+      portalId: "145522533",
+      formId: "620634f0-4fee-41cc-be16-570aa32a05a5",
+      target: "#hubspot-form-container"  // The container where the form will be displayed
+
+    });
+  </script>
+
+</head>
+
+<body>
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title" id="myModalLabel">JAB Consultants - Contactar</h4>
+        </div>
+        <div class="modal-body">
+          <div id="hubspot-form-container"></div> <!-- This is where the form will be rendered -->
+        </div>
+      </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+  </div><!-- /.modal -->
+  <script>
+    $(function () { $('#myModal').modal('show') });
+  </script>
+</body>
+
+</html>
